@@ -17,7 +17,7 @@ session_start();
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     
-    <link rel="shortcut icon" href="images/WhatsApp%20Image%202020-04-11%20at%205.31.41%20PM.jpeg">
+    <link rel="shortcut icon" href="images/beh.jpeg">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -37,15 +37,15 @@ session_start();
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="images/WhatsApp%20Image%202020-04-11%20at%205.31.41%20PM.jpeg" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/beh.jpeg" alt="logo"></a>
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">Inicio</a></li>
                         <li><a href="about-us.php">Nosotros</a></li>
-                        <li><a href="servicios.php">Servicios</a></li>
-                        <li><a href="productos.php">Productos</a></li> 
+                        <li><a href="servicios.php">Psicologos</a></li>
+                        <li><a href="productos.php">Actividades</a></li> 
 
                           <!--<li><a href="login.html">Login</a></li>-->
                         <?php
@@ -107,7 +107,7 @@ session_start();
             </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(images/slider/intro.jpeg)">
+                <div class="item active" style="background-image: url(images/slider/2.jpeg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -123,7 +123,7 @@ session_start();
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/intro.jpeg)">
+                <div class="item" style="background-image: url(images/slider/1.jpeg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -142,7 +142,7 @@ session_start();
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/intro.jpeg)">
+                <div class="item" style="background-image: url(images/slider/3.jpeg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
