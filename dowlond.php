@@ -1,5 +1,5 @@
 <?php 
-            $url_descarga = "app/app-debug.apk";
+            $url_descarga = "app/BeHappy.apk";
             $archivo = "descargas.txt";
             $openn = fopen($archivo,"r");
             $totalvisitas = fread($openn,filesize($archivo));
