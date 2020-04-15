@@ -123,14 +123,14 @@ session_start();
                                 <div class="entry-meta">
                                     <span id="publish_date">07  NOV</span>
                                     <span><i class="fa fa-user"></i> <a href="">John Doe</a></span>
-                                    <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments">2 Comments</a></span>
+                                    <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments">3 Comentarios</a></span>
                                 </div>
                             </div>
                                 
                             <div class="col-xs-12 col-sm-10 blog-content">
-                                <a href=""><img class="img-responsive img-blog" src="images/blog/blog1.jpg" width="100%" alt="" /></a>
-                                <h2><a href="blog-item.php">Camarón Latino</a></h2>
-                                <h3>Somos una comunidad dedicada a ofrecer los mejores servicios y productos para el desarrollo camaronero del país. Con respuesta directa de los mejores proveedores.</h3>
+                                <a href=""><img class="img-responsive img-blog" src="images/blog/sole.jpg" width="100%" alt="" /></a>
+                                <h2><a href="blog-item.php">Depresion</a></h2>
+                                <h3>¿Se siente triste, vacío o sin esperanza la mayor parte del día, casi todos los días? ¿Ha perdido el interés o el placer en sus pasatiempos o en pasar tiempo con sus amigos y familia? ¿Tiene dificultad para dormir, comer o funcionar? Si se ha sentido así durante por lo menos dos semanas, es posible que tenga depresión, un trastorno grave, pero tratable, del estado de ánimo.</h3>
                                 <a class="btn btn-primary readmore" href="blog-item.php">Seguir leyendo <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>    
@@ -138,43 +138,32 @@ session_start();
                 </div><!--/.col-md-8-->
             </div><!--/.row-->
         </div>
-         <?php
-            require_once('publicacionCollector.php');
-            $objeto = new publicacionCollector();
-            foreach($objeto->showPublicacion() as $c){
-                $id = $c->getIdPublicacion();
-                $nomb = $c->getNombre();
-                $fech = $c->getFecha();           
-                $titu = $c->getTitulo();
-                $nomi = $c->getImagen();
-                $diri = $c->getDirimg();
-                $cont = $c->getContenido();
-                $coun = $objeto->contarComentario($id);
-                echo "<div class='blog'>";
-                echo "<div class='row'>";   
-                echo "<div class='col-md-8'>";         
-                echo "<div class='blog-item'>";            
-                echo "<div class='row'>";                
-                echo "<div class='col-xs-12 col-sm-2 text-center'>";                    
-                echo "<div class='entry-meta'>";                        
-                echo "<span id='publish_date'>$fech</span>";                            
-                echo "<span><i class='fa fa-user'></i>$nomb</span>";                            
-                echo "<span><i class='fa fa-comment'></i> $coun Comentario</span>";                        
-                echo "</div>";                        
-                echo "</div>";                    
-                echo "<div class='col-xs-12 col-sm-10 blog-content'>";                    
-                echo "<a href=''><img class='img-responsive img-blog' src=".$diri.$nomi." width='100%' alt='' /></a>";     
-                echo "<h2><a href='blog-item-usuario.html?id=$id'>$titu</a></h2>";                        
-                echo "<h3>$cont</h3>";                        
-                echo "<a class='btn btn-primary readmore' href='blog-item-usuario.php?id=$id'>Seguir leyendo <i class='fa fa-angle-right'></i></a>"; 
-                echo " </div>";         
-                echo "</div>";          
-                echo "</div><!--/.blog-item-->";                                           
-                echo "</div><!--/.col-md-8-->";       
-                echo "</div><!--/.row-->";
-                echo "</div>";
-            }
-        ?>
+        
+        <div class="blog">
+            <div class="row">
+                 <div class="col-md-8">
+                    <div class="blog-item">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-2 text-center">
+                                <div class="entry-meta">
+                                    <span id="publish_date">07  NOV</span>
+                                    <span><i class="fa fa-user"></i> <a href="">John Cenna</a></span>
+                                    <span><i class="fa fa-comment"></i> <a href="blog-item.html#comments">3 Comentarios</a></span>
+                                </div>
+                            </div>
+                                
+                            <div class="col-xs-12 col-sm-10 blog-content">
+                                <a href=""><img class="img-responsive img-blog" src="images/blog/depre.jpg" width="100%" alt="" /></a>
+                                <h2><a href="blog-item.php">Soledad</a></h2>
+                                <h3>Cuando el sentimiento de soledad emocional se instaura, suele traer consigo cierta dosis de tristeza, angustia, ansiedad e incluso miedo.</h3>
+                                <a class="btn btn-primary readmore" href="blog-itemb.php">Seguir leyendo <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>    
+                    </div><!--/.blog-item-->                                          
+                </div><!--/.col-md-8-->
+            </div><!--/.row-->
+        </div>
+        
     </section><!--/#blog-->
 
   

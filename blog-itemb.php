@@ -118,24 +118,22 @@ session_start();
             <div class="row">
                 <div class="col-md-8">
                     <div class="blog-item">
-                        <img class="img-responsive img-blog" src="images/blog/sole.jpg" width="100%" alt="" />
+                        <img class="img-responsive img-blog" src="images/blog/depre.jpg" width="100%" alt="" />
                             <div class="row">  
                                 <div class="col-xs-12 col-sm-2 text-center">
                                     <div class="entry-meta">
                                         <span id="publish_date">07  NOV</span>
-                                        <span><i class="fa fa-user"></i> <a href="#"> John Doe</a></span>
+                                        <span><i class="fa fa-user"></i> <a href="#"> John Cenna</a></span>
                                         <span><i class="fa fa-comment"></i> <a href="blog-item.php#comments">3 Comentarios</a></span>
-                                        <span><i class="fa fa-heart"></i><a href="#">56 Likes</a></span>
+                                        <span><i class="fa fa-heart"></i><a href="#">54 Likes</a></span>
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-10 blog-content">
-                                    <h2>Depresion</h2>
-                                    <p>¿Se siente triste, vacío o sin esperanza la mayor parte del día, casi todos los días? ¿Ha perdido el interés o el placer en sus pasatiempos o en pasar tiempo con sus amigos y familia? ¿Tiene dificultad para dormir, comer o funcionar? Si se ha sentido así durante por lo menos dos semanas, es posible que tenga depresión, un trastorno grave, pero tratable, del estado de ánimo.</p>
-
-                                    
+                                    <h2>Soledad</h2>
+                                    <p>¿Cuando el sentimiento de soledad emocional se instaura, suele traer consigo cierta dosis de tristeza, angustia, ansiedad e incluso miedo.</p>
 
                                     <div class="post-tags">
-                                        <strong>Tag:</strong> <a href="#">Cool</a> / <a href="#">Creatividad</a> / <a href="#">Depresion</a>
+                                        <strong>Tag:</strong> <a href="#">Cool</a> / <a href="#">Creatividad</a> / <a href="#">Soledad</a>
                                     </div>
 
                                 </div>

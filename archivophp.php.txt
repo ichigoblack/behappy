@@ -1,0 +1,37 @@
+ <?php
+            require_once('publicacionCollector.php');
+            $objeto = new publicacionCollector();
+            foreach($objeto->showPublicacion() as $c){
+                $id = $c->getIdPublicacion();
+                $nomb = $c->getNombre();
+                $fech = $c->getFecha();           
+                $titu = $c->getTitulo();
+                $nomi = $c->getImagen();
+                $diri = $c->getDirimg();
+                $cont = $c->getContenido();
+                $coun = $objeto->contarComentario($id);
+                echo "<div class='blog'>";
+                echo "<div class='row'>";   
+                echo "<div class='col-md-8'>";         
+                echo "<div class='blog-item'>";            
+                echo "<div class='row'>";                
+                echo "<div class='col-xs-12 col-sm-2 text-center'>";                    
+                echo "<div class='entry-meta'>";                        
+                echo "<span id='publish_date'>$fech</span>";                            
+                echo "<span><i class='fa fa-user'></i>$nomb</span>";                            
+                echo "<span><i class='fa fa-comment'></i> $coun Comentario</span>";                        
+                echo "</div>";                        
+                echo "</div>";                    
+                echo "<div class='col-xs-12 col-sm-10 blog-content'>";                    
+                echo "<a href=''><img class='img-responsive img-blog' src=".$diri.$nomi." width='100%' alt='' /></a>";     
+                echo "<h2><a href='blog-item-usuario.html?id=$id'>$titu</a></h2>";                        
+                echo "<h3>$cont</h3>";                        
+                echo "<a class='btn btn-primary readmore' href='blog-item-usuario.php?id=$id'>Seguir leyendo <i class='fa fa-angle-right'></i></a>"; 
+                echo " </div>";         
+                echo "</div>";          
+                echo "</div><!--/.blog-item-->";                                           
+                echo "</div><!--/.col-md-8-->";       
+                echo "</div><!--/.row-->";
+                echo "</div>";
+            }
+        ?>
