@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Blog | Camarón Latino</title>
+        <title>BeHappy</title>
 
         <!-- core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -47,8 +47,8 @@
                         <ul class="nav navbar-nav">
                             <li ><a href="index.php">Inicio</a></li>
                             <li><a href="about-us.php">Nosotros</a></li>
-                            <li><a href="servicios.php">Servicios</a></li>
-                            <li><a href="productos.php">Productos</a></li> 
+                            <li><a href="servicios.php">Psicologos</a></li>
+                            <li><a href="productos.php">Actividades</a></li> 
                             <li><a href="blog.php">Publicacion</a></li> 
                          
                             <!--<li><a href="login.html">Login</a></li>-->
@@ -127,7 +127,7 @@
                 <div class="container">
                     <div class="row">
                           <div class="col-sm-6">
-                        &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. Todos los Derechos Reservados.
+                        &copy; 2020 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates"></a>. Todos los Derechos Reservados.
                     </div>
 
                         <div class="col-sm-6 col-xs-8">

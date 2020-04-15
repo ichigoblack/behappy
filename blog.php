@@ -8,7 +8,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Blog | Camarón Latino</title>
+    <title>Blog </title>
     
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@ session_start();
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="images/beh.jpeg">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -42,14 +42,14 @@ session_start();
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="images/WhatsApp%20Image%202020-04-11%20at%205.31.41%20PM.jpeg" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/beh.jpeg" alt="logo"></a>
                 </div>
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li ><a href="index.php">Inicio</a></li>
                         <li><a href="about-us.php">Nosotros</a></li>
-                        <li><a href="servicios.php">Servicios</a></li>
-                        <li><a href="productos.php">Productos</a></li> 
+                        <li><a href="servicios.php">Psicologos</a></li>
+                        <li><a href="productos.php">Actividades</a></li> 
                         
                         <!--<li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>

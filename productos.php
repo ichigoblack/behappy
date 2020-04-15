@@ -99,7 +99,7 @@ session_start();
         <div class="container">
             <div class="center">
                <h2>Actividades</h2>
-               <p class="lead">Obtén los productos con los más altos estandares en calidad</p>
+               <p class="lead">Ejercicios y actividades para reducir la ansiedad</p>
             </div>
         
             
