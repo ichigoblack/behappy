@@ -118,8 +118,8 @@ session_start();
                             <img class="img-responsive" src="images/psicologos/psi1.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Dra Maria Polo</a></h3>
+                                    <p>10 años de experiencia en el campo</p>
                                     <a class="preview" href="images/psicologos/psi1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -131,8 +131,8 @@ session_start();
                             <img class="img-responsive" src="images/psicologos/psi2.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Dr Carlos Iturralde</a></h3>
+                                    <p>10 años de experiencia en el campo</p>
                                     <a class="preview" href="images/psicologos/psi2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -144,8 +144,8 @@ session_start();
                             <img class="img-responsive" src="images/psicologos/psi3.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Dr Freddy ted</a></h3>
+                                    <p>10 años de experiencia en el campo</p>
                                     <a class="preview" href="images/psicologos/psi3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -157,8 +157,8 @@ session_start();
                             <img class="img-responsive" src="images/psicologos/psi5.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Dra Rochy Febles</a></h3>
+                                    <p>10 años de experiencia en el campo</p>
                                     <a class="preview" href="images/psicologos/psi5.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -170,8 +170,8 @@ session_start();
                             <img class="img-responsive" src="images/psicologos/psi6.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Dra Yurleydis Castro</a></h3>
+                                    <p>10 años de experiencia en el campo</p>
                                     <a class="preview" href="images/psicologos/psi6.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -183,8 +183,8 @@ session_start();
                             <img class="img-responsive" src="images/psicologos/psi7.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Dra Elsa Muñoz</a></h3>
+                                    <p>10 años de experiencia en el campo</p>
                                     <a class="preview" href="images/psicologos/psi7.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -196,8 +196,8 @@ session_start();
                             <img class="img-responsive" src="images/psicologos/psi8.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Dra Julieth Huertas</a></h3>
+                                    <p>10 años de experiencia en el campo</p>
                                     <a class="preview" href="images/psicologos/psi8.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -209,8 +209,8 @@ session_start();
                             <img class="img-responsive" src="images/psicologos/psi9.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Dr Briggette Bravo</a></h3>
+                                    <p>10 años de experiencia en el campo</p>
                                     <a class="preview" href="images/psicologos/psi9.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>

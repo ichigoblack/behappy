@@ -119,8 +119,8 @@ session_start();
                             <img class="img-responsive" src="images/actividades/act1.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Visitar Playas</a></h3>
+                                    <p>Ayuda a relajarte y pasarla con amigos</p>
                                     <a class="preview" href="images/actividades/act1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -132,8 +132,8 @@ session_start();
                             <img class="img-responsive" src="images/actividades/act9.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Canotaje</a></h3>
+                                    <p>Ayuda a la relajacion y a tener la mente ocupada</p>
                                     <a class="preview" href="images/actividades/act9.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -145,8 +145,8 @@ session_start();
                             <img class="img-responsive" src="images/actividades/act3.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Reunion</a></h3>
+                                    <p>La interaccion ayuda con el estres</p>
                                     <a class="preview" href="images/actividades/act3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -158,8 +158,8 @@ session_start();
                             <img class="img-responsive" src="images/actividades/act4.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Coversacion</a></h3>
+                                    <p>Ayuda a desahogarse  a entenderse mejor</p>
                                     <a class="preview" href="images/actividades/act4.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -171,8 +171,8 @@ session_start();
                             <img class="img-responsive" src="images/actividades/act5.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Voleyball</a></h3>
+                                    <p>Ayuda a la relajacion y a divertirse</p>
                                     <a class="preview" href="images/actividades/act5.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -184,8 +184,8 @@ session_start();
                             <img class="img-responsive" src="images/actividades/act6.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Actividad al aire libre</a></h3>
+                                    <p>Mantiene muy distraido y ayuda a la salud</p>
                                     <a class="preview" href="images/actividades/act6.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -197,8 +197,8 @@ session_start();
                             <img class="img-responsive" src="images/actividades/act8.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Basquetball</a></h3>
+                                    <p>Ayuda al trabajo en equipo</p>
                                     <a class="preview" href="images/actividades/act8.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
@@ -210,8 +210,8 @@ session_start();
                             <img class="img-responsive" src="images/actividades/act7.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                                    <h3><a href="#">Ejercicio</a></h3>
+                                    <p>Mantiene la mente y el cuerpo ocupado</p>
                                     <a class="preview" href="images/actividades/act7.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                 </div> 
                             </div>
