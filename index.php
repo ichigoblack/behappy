@@ -44,6 +44,7 @@ session_start();
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">Inicio</a></li>
                         <li><a href="about-us.php">Nosotros</a></li>
+                        <li><a href="app.php">Producto</a></li>
                         <li><a href="servicios.php">Psicologos</a></li>
                         <li><a href="productos.php">Actividades</a></li> 
 
