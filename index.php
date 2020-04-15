@@ -98,8 +98,27 @@ session_start();
         </nav><!--/nav-->
 		
     </header><!--/header-->
-
+    
     <section id="main-slider" class="no-margin">
+        <?php 
+            $archivo = "visitas.txt";
+            $descarga = "descargas.txt";
+            $openn = fopen($archivo,"r");
+            $openb = fopen($descarga,"r");
+            $totalvisitas = fread($openn,filesize($archivo));
+            $numero = fread($openb,filesize($descarga));
+            fclose($openn);
+            fclose($openb);
+            $openn = fopen($archivo,"w");
+            $totalvisitas = $totalvisitas+1;
+            $grabar = fwrite($openn,$totalvisitas);
+            fclose($openn);
+            echo "<div backgroundColor = 'lightblue'>";
+            echo "<font size='5'> El numero de visitas hasta hoy: ".$totalvisitas."</font>";
+            echo "<br>";
+            echo "<font size='5'> El numero de descargas de la app: ".$numero."</font>";
+            echo "</div>";
+        ?>
         <div class="carousel slide">
             <ol class="carousel-indicators">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>

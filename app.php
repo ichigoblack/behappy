@@ -124,7 +124,7 @@ session_start();
                                 <a href=""><img class="img-responsive img-blog" src="images/app.PNG" width="100%" alt="" /></a>
                                 <h2><a href="blog-item.php"></a></h2>
                                 <h3>Ayudamos a resolver problemas de depresión con actividades que ayuden a subir su motivación y autoestima del usuario.Servicio gratuito con asesoría de profesionales, además de contar con una comunidad que se encargará de ofrecer consejos. </h3>
-                                <a class="btn btn-primary" href="app/app-debug.apk" download="BeHappy">Descargar Aqui <i class="fa fa-angle-right"></i></a>
+                                <a class="btn btn-primary" href="dowlond.php">Descargar Aqui <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>    
                     </div><!--/.blog-item-->                                          
