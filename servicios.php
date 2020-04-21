@@ -100,7 +100,7 @@ session_start();
         <div class="container">
             <div class="center">
                <h2>Servicios</h2>
-               <p class="lead">Encuentra la respuesta a tu necesidad ahora!!!</p>
+               <p class="lead" align="center">Contamos con un grupo calificado de profesinales que lo ayudaran con sus problemas y atenderan de la manera mas cordial y profesional no dudo en contactarlos personalmente o a través de nuestra aplicacion movil para una mayor comodidad.</p>
             </div>
         
 
@@ -113,105 +113,105 @@ session_start();
 
             <div class="row">
                 <div class="portfolio-items">
-                    <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/psicologos/psi1.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Dra Maria Polo</a></h3>
                                     <p>10 años de experiencia en el campo</p>
-                                    <a class="preview" href="images/psicologos/psi1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/psicologos/inf1.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item html col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/psicologos/psi2.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Dr Carlos Iturralde</a></h3>
                                     <p>10 años de experiencia en el campo</p>
-                                    <a class="preview" href="images/psicologos/psi2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/psicologos/inf5.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>          
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/psicologos/psi3.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Dr Freddy ted</a></h3>
                                     <p>10 años de experiencia en el campo</p>
-                                    <a class="preview" href="images/psicologos/psi3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/psicologos/inf2.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>        
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item wordpress col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/psicologos/psi5.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Dra Rochy Febles</a></h3>
                                     <p>10 años de experiencia en el campo</p>
-                                    <a class="preview" href="images/psicologos/psi5.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/psicologos/inf6.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>           
                     </div><!--/.portfolio-item-->
           
-                    <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/psicologos/psi6.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Dra Yurleydis Castro</a></h3>
                                     <p>10 años de experiencia en el campo</p>
-                                    <a class="preview" href="images/psicologos/psi6.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/psicologos/inf3.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>      
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item html col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/psicologos/psi7.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Dra Elsa Muñoz</a></h3>
                                     <p>10 años de experiencia en el campo</p>
-                                    <a class="preview" href="images/psicologos/psi7.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/psicologos/inf7.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>         
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item html col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/psicologos/psi8.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Dra Julieth Huertas</a></h3>
                                     <p>10 años de experiencia en el campo</p>
-                                    <a class="preview" href="images/psicologos/psi8.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/psicologos/inf8.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>          
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/psicologos/psi9.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Dr Briggette Bravo</a></h3>
                                     <p>10 años de experiencia en el campo</p>
-                                    <a class="preview" href="images/psicologos/psi9.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/psicologos/inf4.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>          

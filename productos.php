@@ -100,7 +100,8 @@ session_start();
         <div class="container">
             <div class="center">
                <h2>Actividades</h2>
-               <p class="lead">Ejercicios y actividades para reducir la ansiedad</p>
+               <p class="lead" ALIGN="justify">Si padeces depresión o ansiedad, muchas veces puede parecer que lo último que quieres hacer es ejercicio. Sin embargo,   cuando logres sentirte motivado, el ejercicio puede marcar una gran diferencia.
+                Ejercitarte ayuda a prevenir y mejorar diversos problemas de salud, incluidos la presión arterial alta, la diabetes y la artritis. Las investigaciones sobre depresión, ansiedad y ejercicio han demostrado que los beneficios psicológicos y físicos del ejercicio también pueden mejorar el estado de ánimo y disminuir la ansiedad.</p>
             </div>
         
             
@@ -114,105 +115,105 @@ session_start();
 
             <div class="row">
                 <div class="portfolio-items">
-                    <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item html col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/actividades/act1.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Visitar Playas</a></h3>
                                     <p>Ayuda a relajarte y pasarla con amigos</p>
-                                    <a class="preview" href="images/actividades/act1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/actividades/inf1.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/actividades/act9.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Canotaje</a></h3>
                                     <p>Ayuda a la relajacion y a tener la mente ocupada</p>
-                                    <a class="preview" href="images/actividades/act9.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/actividades/inf4.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>          
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/actividades/act3.jpg" alt="">
+                            <img class="img-responsive" src="images/actividades/act10.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Reunion</a></h3>
+                                    <h3><a href="#">Cicloturismo</a></h3>
                                     <p>La interaccion ayuda con el estres</p>
-                                    <a class="preview" href="images/actividades/act3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/actividades/inf2.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver Mas</a>
                                 </div> 
                             </div>
                         </div>        
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item wordpress col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/actividades/act4.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h3><a href="#">Coversacion</a></h3>
+                                    <h3><a href="#">Grupo de Ayuda</a></h3>
                                     <p>Ayuda a desahogarse  a entenderse mejor</p>
-                                    <a class="preview" href="images/actividades/act4.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/actividades/inf7.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>           
                     </div><!--/.portfolio-item-->
           
-                    <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/actividades/act5.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Voleyball</a></h3>
                                     <p>Ayuda a la relajacion y a divertirse</p>
-                                    <a class="preview" href="images/actividades/act5.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/actividades/inf3.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>      
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item html col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/actividades/act6.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Actividad al aire libre</a></h3>
                                     <p>Mantiene muy distraido y ayuda a la salud</p>
-                                    <a class="preview" href="images/actividades/act6.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/actividades/act6.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>         
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/actividades/act8.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Basquetball</a></h3>
                                     <p>Ayuda al trabajo en equipo</p>
-                                    <a class="preview" href="images/actividades/act8.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/actividades/inf6.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>          
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item bootstrap col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/actividades/act7.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Ejercicio</a></h3>
                                     <p>Mantiene la mente y el cuerpo ocupado</p>
-                                    <a class="preview" href="images/actividades/act7.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                    <a class="preview" href="images/actividades/inf5.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>          
