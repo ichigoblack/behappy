@@ -47,7 +47,6 @@ session_start();
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li ><a href="index.php">Inicio</a></li>
-                        <li><a href="about-us.php">Nosotros</a></li>
                         <li><a href="app.php">Producto</a></li>
                         <li><a href="servicios.php">Psicologos</a></li>
                         <li><a href="productos.php">Actividades</a></li> 
@@ -97,8 +96,8 @@ session_start();
                                 }
                             }else{
                         ?> 
-                            <li><a href="blog.php">Publicacion</a></li>        
-                            <li><a href="login.php?mensaje=">Inicio de Sesión</a></li>
+                            <li class="active"><a href="blog.php" class="active">Publicacion</a></li>        
+                             <li><a href="contact-us.php">Contáctenos</a></li>
                         <?php
                             }
                         ?>          

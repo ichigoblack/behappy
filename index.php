@@ -62,7 +62,7 @@ session_start();
                                 </ul>
                             </li>
                             <li><a href="contact-us.php">Contáctenos</a></li>
-                           
+                           <li><a href="login.php?mensaje=">Login</a></li> 
                         <?php
                                 if ($_SESSION["perfil"]=="admin"){
                         ?>
@@ -89,7 +89,8 @@ session_start();
                             }else{
                         ?>
                             <li><a href="blog.php">Publicacion</a></li>
-                            <li><a href="login.php?mensaje=">Login</a></li> 
+                            
+                            <li><a href="contact-us.php">Contáctenos</a></li>
                         <?php
                             }
                         ?>                                               
@@ -106,14 +107,16 @@ session_start();
     <div class="">
       <h2>Be Happy</h2>
         <br>
-        <p>Es un servicio de orientación psicológica online y completamente anónimo, especializado en problemas del día a día. Habla con un psicólogo profesional cuando realmente lo necesitas.</p>
+        <p>¡Llegó una aplicación enfocada en solucionar problemas relacionados con la depresión! Evitar la depresión nunca más será complicado gracias a los servicios que ofrece la app.</p>
     </div>
   </section>
  <!-- Image Showcases -->
   <section class="showcase">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/presentacion/online.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img">
+            <img class="img-responsive" src="images/behappy/b1.PNG" alt="">
+          </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Paso 1: Regístrate en la aplicación</h2>
           <p class="lead mb-0">Con nuestra aplicacion una solucion a tus problemas de depresion</p>
@@ -124,10 +127,10 @@ session_start();
           <h2>Paso 2: Encuentra tu psicólogo</h2>
           <p class="lead mb-0">Una gran disponibilidad y diferentes especialistas a tu dispocision</p>
         </div>
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/presentacion/online.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 center text-white showcase-img"><img class="img-responsive" src="images/behappy/b2.PNG" alt=""></div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/presentacion/online.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 center text-white showcase-img"><img class="img-responsive" src="images/behappy/b3.PNG" alt=""></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Paso 3: Verifica información</h2>
           <p class="lead mb-0">Podras revisar tus consultas en tiempo real </p>
@@ -138,15 +141,20 @@ session_start();
           <h2>Paso 4: Adaptate a tus necesidades</h2>
           <p class="lead mb-0">Disfruta de tu sesión psicológica en la modalidad que tú prefieras: chat, llamada o videollamada</p>
         </div>
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/presentacion/online.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 center text-white showcase-img"><img class="img-responsive" src="images/behappy/b4.PNG" alt=""></div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/presentacion/online.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 center text-white showcase-img"><img class="img-responsive" src="images/behappy/b5.PNG" alt=""></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Paso 5: Califica el servicio ofrecido por el psicólogo</h2>
           <p class="lead mb-0">Podras evaluar el servicio de los diferentes profesionales a su disposicion</p>
         </div>
       </div>
+    </div>
+  </section>
+    <section class="text-center bg-light">
+    <div class="">
+        <a class="btn btn-primary" href="dowlond.php">Descargar Aqui <i class="fa fa-angle-right"></i></a>
     </div>
   </section>
     

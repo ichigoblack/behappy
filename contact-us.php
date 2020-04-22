@@ -9,7 +9,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Blog | Camarón Latino</title>
+    <title>BeHappy</title>
     
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@ session_start();
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="images/beh.jpeg">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
@@ -43,17 +43,18 @@ session_start();
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/beh.jpeg" alt="logo"></a>
                 </div>
                 
                  <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li ><a href="index.php">Inicio</a></li>
-                        <li><a href="about-us.php">Nosotros</a></li>
-                        <li><a href="servicios.php">Servicios</a></li>
-                        <li><a href="productos.php">Productos</a></li> 
-                        <!--<li><a href="login.html">Login</a></li>-->
-                           <?php
+                        <li><a href="app.php">Producto</a></li>
+                        <li><a href="servicios.php">Psicologos</a></li>
+                        <li><a href="productos.php">Actividades</a></li> 
+
+                          <!--<li><a href="login.html">Login</a></li>-->
+                        <?php
                             if ($_SESSION){
                         ?>
                             <li class="dropdown">
@@ -63,13 +64,14 @@ session_start();
                                     <li><a href="publicacionUsuario.php?mensaje=">Crear</a></li>
                                 </ul>
                             </li>
-                            <li class="active"><a href="contact-us.php">Contáctenos</a>
+                            <li><a href="contact-us.php">Contáctenos</a></li>
+                           <li><a href="login.php?mensaje=">Login</a></li> 
                         <?php
                                 if ($_SESSION["perfil"]=="admin"){
                         ?>
                             <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bienvenido <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">                                
+                            <ul class="dropdown-menu">                 
                                 <li><a href="indexadministrativo.php"><strong> <?php echo $_SESSION["usu"];?> </strong> </a></li>
                                 <li><a href="logout.php">Cerrar Sesión</a></li>
                             </ul>
@@ -89,7 +91,9 @@ session_start();
                                 }
                             }else{
                         ?>
-                            <li><a href="login.php?mensaje=">Inicio de Sesión</a></li>
+                            <li><a href="blog.php">Publicacion</a></li>
+                            
+                            <li class="active"><a href="contact-us.php">Contáctenos</a></li>
                         <?php
                             }
                         ?>
@@ -98,7 +102,28 @@ session_start();
             </div><!--/.container-->
         </nav><!--/nav-->
     </header><!--/header-->
-
+   <section>
+        <?php 
+            $archivo = "visitas.txt";
+            $descarga = "descargas.txt";
+            $openn = fopen($archivo,"r");
+            $openb = fopen($descarga,"r");
+            $totalvisitas = fread($openn,filesize($archivo));
+            $numero = fread($openb,filesize($descarga));
+            fclose($openn);
+            fclose($openb);
+            $openn = fopen($archivo,"w");
+            $totalvisitas = $totalvisitas+1;
+            $grabar = fwrite($openn,$totalvisitas);
+            fclose($openn);
+            echo "<div backgroundColor = 'lightblue'>";
+            echo "<font size='5'> El numero de visitas hasta hoy: ".$totalvisitas."</font>";
+            echo "<br>";
+            echo "<br>";
+            echo "<font size='5'> El numero de descargas de la app: ".$numero."</font>";
+            echo "</div>";
+        ?>
+    </section>
     <section id="contact-page">
         <div class="container">
             <div class="center">  
