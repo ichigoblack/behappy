@@ -109,31 +109,74 @@ session_start();
         
     </header><!--/header-->
 
-    <section id="blog" class="container">
-        <div class="center">
-            <h2>Aplicacion BeHappy</h2>
-            <p class="lead"></p>
+   <!-- Icons Grid -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <img class="img-responsive" src="images/presentacion/expertos.jpg" alt="">
+            </div>
+            <h3>Psicólogos expertos</h3>
+            <p class="lead mb-0">Los psicólogos online son entrevistados y seleccionados por nuestro equipo de profesionales. Además, realizamos un seguimiento para garantizar la calidad de las sesiones.</p>
+          </div>
         </div>
-
-        <div class="blog">
-            <div class="row">
-                 <div class="col-md-8">
-                    <div class="blog-item">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-10 blog-content">
-                                <a href=""><img class="img-responsive img-blog" src="images/app.PNG" width="100%" alt="" /></a>
-                                <h2><a href="blog-item.php"></a></h2>
-                                <h3>Ayudamos a resolver problemas de depresión con actividades que ayuden a subir su motivación y autoestima del usuario.Servicio gratuito con asesoría de profesionales, además de contar con una comunidad que se encargará de ofrecer consejos. </h3>
-                                <a class="btn btn-primary" href="dowlond.php">Descargar Aqui <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>    
-                    </div><!--/.blog-item-->                                          
-                </div><!--/.col-md-8-->
-            </div><!--/.row-->
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <img class="img-responsive" src="images/presentacion/anonimo.jpg" alt="">
+            </div>
+            <h3>100% Anónimo</h3>
+            <p class="lead mb-0">Tu privacidad está en buenas manos. En ningún momento conoceremos tu nombre real y las conversaciones solo serán visibles para ti y tu psicólogo online.</p>
+          </div>
         </div>
-        
-    </section><!--/#blog-->
-
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <img class="img-responsive" src="images/presentacion/online.jpg" alt="">
+            </div>
+            <h3>Terapia completamente online</h3>
+            <p class="lead mb-0">Nuestra tecnología permite realizar terapia online donde quieras y cuando quieras. Disponible en Android y iOS, y también en web.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- Icons Grid -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <img class="img-responsive" src="images/presentacion/instante.jpg" alt="">
+            </div>
+            <h3>Sesiones al instante</h3>
+            <p class="lead mb-0">A diferencia de los métodos tradicionales, puedes contactar con un profesional justo cuando lo necesitas, sin citas previas ni largas esperas.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <img class="img-responsive" src="images/presentacion/asequible.jpg" alt="">
+            </div>
+            <h3>Servicio asequible para todos</h3>
+            <p class="lead mb-0">¡El tiempo y el dinero ya no son excusa! Las sesiones son de 30 minutos y por un precio realmente asequible.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+                <img class="img-responsive" src="images/presentacion/contacta.jpg" alt="">
+            </div>
+            <h3>Contacta como tú prefieras</h3>
+            <p class="lead mb-0">El servicio permite ​sesiones vía chat o por llamada​. En todos los casos el psicólogo online responderá al momento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   
 
     <footer id="footer" class="midnight-blue">
