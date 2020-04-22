@@ -44,7 +44,7 @@ session_start();
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li ><a href="index.php">Inicio</a></li>
-                        <li><a href="about-us.php">Nosotros</a></li>
+                        <!--<li><a href="about-us.php">Nosotros</a></li-->
                         <li><a href="app.php">Producto</a></li>
                         <li><a href="servicios.php">Psicologos</a></li>                        
                         <li class="active"><a href="productos.php">Actividades</a></li> 
@@ -86,7 +86,7 @@ session_start();
                             }else{
                         ?>
                             <li><a href="blog.php">Publicacion</a></li>
-                            <li><a href="login.php?mensaje=">Inicio de Sesión</a></li>
+                            <li><a href="login.php?mensaje=">Login</a></li>
                         <?php
                             }
                         ?>
@@ -187,7 +187,7 @@ session_start();
                                 <div class="recent-work-inner">
                                     <h3><a href="#">Actividad al aire libre</a></h3>
                                     <p>Mantiene muy distraido y ayuda a la salud</p>
-                                    <a class="preview" href="images/actividades/act6.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
+                                    <a class="preview" href="images/actividades/inf8.PNG" rel="prettyPhoto"><i class="fa fa-eye"></i> Ver mas</a>
                                 </div> 
                             </div>
                         </div>         

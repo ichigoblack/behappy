@@ -16,6 +16,8 @@ session_start();
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
     
     <link rel="shortcut icon" href="images/beh.jpeg">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
@@ -43,7 +45,7 @@ session_start();
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">Inicio</a></li>
-                        <li><a href="about-us.php">Nosotros</a></li>
+                        <!--<li><a href="about-us.php">Nosotros</a></li-->
                         <li><a href="app.php">Producto</a></li>
                         <li><a href="servicios.php">Psicologos</a></li>
                         <li><a href="productos.php">Actividades</a></li> 
@@ -87,7 +89,7 @@ session_start();
                             }else{
                         ?>
                             <li><a href="blog.php">Publicacion</a></li>
-                            <li><a href="login.php?mensaje=">Inicio de Sesión</a></li> 
+                            <li><a href="login.php?mensaje=">Login</a></li> 
                         <?php
                             }
                         ?>                                               
@@ -99,10 +101,56 @@ session_start();
 		
     </header><!--/header-->
     
+      <!-- Testimonials -->
+  <section class="text-center bg-light">
+    <div class="">
+      <h2>Be Happy</h2>
+        <br>
+        <p>Es un servicio de orientación psicológica online y completamente anónimo, especializado en problemas del día a día. Habla con un psicólogo profesional cuando realmente lo necesitas.</p>
+    </div>
+  </section>
+ <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/presentacion/online.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Paso 1: Regístrate en la aplicación</h2>
+          <p class="lead mb-0">Con nuestra aplicacion una solucion a tus problemas de depresion</p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Paso 2: Encuentra tu psicólogo</h2>
+          <p class="lead mb-0">Una gran disponibilidad y diferentes especialistas a tu dispocision</p>
+        </div>
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/presentacion/online.jpg');"></div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/presentacion/online.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Paso 3: Verifica información</h2>
+          <p class="lead mb-0">Podras revisar tus consultas en tiempo real </p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Paso 4: Adaptate a tus necesidades</h2>
+          <p class="lead mb-0">Disfruta de tu sesión psicológica en la modalidad que tú prefieras: chat, llamada o videollamada</p>
+        </div>
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('images/presentacion/online.jpg');"></div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('images/presentacion/online.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Paso 5: Califica el servicio ofrecido por el psicólogo</h2>
+          <p class="lead mb-0">Podras evaluar el servicio de los diferentes profesionales a su disposicion</p>
+        </div>
+      </div>
+    </div>
+  </section>
     
-
-    
-      <footer id="footer" class="midnight-blue">
+    <footer id="footer" class="midnight-blue">
             <div class="container">
                 <div class="row">
                       <div class="col-sm-6">
