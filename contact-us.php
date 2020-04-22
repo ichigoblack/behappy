@@ -117,10 +117,10 @@ session_start();
             $grabar = fwrite($openn,$totalvisitas);
             fclose($openn);
             echo "<div backgroundColor = 'lightblue'>";
-            echo "<font size='5'> El numero de visitas hasta hoy: ".$totalvisitas."</font>";
+            echo "<font size='5'  FACE='roman'> El numero de visitas hasta hoy: ".$totalvisitas."</font>";
             echo "<br>";
             echo "<br>";
-            echo "<font size='5'> El numero de descargas de la app: ".$numero."</font>";
+            echo "<font size='5'  FACE='roman'> El numero de descargas de la app: ".$numero."</font>";
             echo "</div>";
         ?>
     </section>

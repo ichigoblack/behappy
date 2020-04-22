@@ -105,9 +105,9 @@ session_start();
       <!-- Testimonials -->
   <section class="text-center bg-light">
     <div class="">
-      <h2>Be Happy</h2>
+      <h2><font SIZE=10>Be Happy</font></h2>
         <br>
-        <p>¡Llegó una aplicación enfocada en solucionar problemas relacionados con la depresión! Evitar la depresión nunca más será complicado gracias a los servicios que ofrece la app.</p>
+        <p><font SIZE=4 FACE="roman">¡Llegó una aplicación enfocada en solucionar problemas relacionados con la depresión! Evitar la depresión nunca más será complicado gracias a los servicios que ofrece la app.</font></p>
     </div>
   </section>
  <!-- Image Showcases -->
